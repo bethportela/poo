@@ -1,8 +1,6 @@
-package main;
-
 import java.util.Scanner;
 
-public class main {
+class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,7 +12,7 @@ public class main {
 		int idade = sc.nextInt();
 		sc.close();
 		
-		System.out.println("Aluno "+nome+ ", sua idade é "+idade+ " anos.");
+		System.out.println("Aluno "+nome+ ", sua idade Ã© "+idade+ " anos.");
 	}
 
 }
